@@ -1,37 +1,45 @@
 body{
     margin: 0;
     padding: 0;
-    background: url(bg.jpg) no-repeat;
-    background-size: cover;
+    background: rgb(255, 235, 242);
+
   }
   .box{
-    width: 450px;
     background: rgb(255, 235, 242);
-    padding: 40px;
+    width: 300px;
+    padding: 100px;
+    margin: 20px auto 20px;
     text-align: center;
-    margin: auto;
-    margin-top: 5%;
     color: black;
     font-family: 'Century Gothic',sans-serif;
+    flex-wrap: wrap;
+
+    
   }
+
   .box-img{
     border-radius: 50%;
     width: 200px;
-    height: 200px;
+    min-height: 200px;
+    max-width: 100%;
   }
+  /*name*/ 
   .box h1{
     font-size: 40px;
-    letter-spacing: 4px;
+    letter-spacing: 2px;
     font-weight: 100;
   }
+  /*major*/ 
   .box h5{
     font-size: 20px;
     letter-spacing: 3px;
     font-weight: 100;
   }
+  /*???*/
   .box p{
-    text-align: justify;
+    text-align: right;
   }
+  /*padding for icons*/ 
   ul{
     margin: 0;
     padding: 0;
@@ -41,6 +49,7 @@ body{
     margin: 6px;
     list-style: none;
   }
+  /*color for icons*/ 
   .box li a{
     color: black;
     text-decoration: none;
@@ -50,4 +59,7 @@ body{
   .box li a:hover{
     color: #46324d;
   } 
+  .wrapper {
+    width: 100%;
+  }
   
