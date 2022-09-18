@@ -112,12 +112,14 @@ body{
   /* PROJECT PAGE HOME BUTTON */
 
   .btn-group button {
-    background-color: rgb(175, 92, 121); /* Green background */
+    background-color: rgb(136, 65, 91); /* Green background */
     border: 3px solid white; /* Green border */
     color: white; /* White text */
     padding: 10px 24px; /* Some padding */
     cursor: pointer; /* Pointer/hand icon */
     float: center; /* Float the buttons side by side */
+    font-size: 15px;
+
   }
 
   .btn-group button:not(:last-child) {
@@ -133,5 +135,5 @@ body{
   
   /* Add a background color on hover */
   .btn-group button:hover {
-    background-color: #af87aa;
+    background-color: #af879d;
   }
